@@ -1,0 +1,16 @@
+RUN_MODE_FULL = "full_sync"
+RUN_MODE_CATEGORIES_ONLY = "categories_only"
+RUN_MODE_LINKS_ONLY = "links_only"
+RUN_MODE_EXISTING_REVIEW = "existing_review"
+RUN_MODE_SELECTED_SYNC = "selected_sync"
+RUN_MODE_PRIMARY = "primary"
+
+RUN_MODES = {RUN_MODE_FULL, RUN_MODE_CATEGORIES_ONLY, RUN_MODE_LINKS_ONLY, RUN_MODE_EXISTING_REVIEW, RUN_MODE_SELECTED_SYNC, RUN_MODE_PRIMARY}
+RUN_MODE_LABELS = {
+    RUN_MODE_FULL: "Iniciar",
+    RUN_MODE_CATEGORIES_ONLY: "Atualizar categorias",
+    RUN_MODE_LINKS_ONLY: "Detectar novos links",
+    RUN_MODE_EXISTING_REVIEW: "Revisar versões",
+    RUN_MODE_SELECTED_SYNC: "Sincronizar selecionadas",
+    RUN_MODE_PRIMARY: "Iniciar",
+}
